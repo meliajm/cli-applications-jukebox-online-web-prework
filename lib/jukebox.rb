@@ -24,7 +24,7 @@ def play(songs)
   elsif user_request.to_i 
     puts "Playing #{songs[user_request.to_i+1}"
   else 
-    
+    puts "Invalid input, please try again"
   end
 end
     
