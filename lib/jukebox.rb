@@ -20,7 +20,8 @@ def play(songs)
   
   if songs.include?(user_request)
     
-    puts "Playing #{songs.find_index(user_request)}"
+    puts "Playing #{songs[songs.find_index(user_request)]}"
+    elsif 
     
   end
 end
