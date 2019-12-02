@@ -19,4 +19,4 @@ def play(songs)
   user_request = gets.strip
   
   if 
-    puts ""
+    puts "Playing #{}"
