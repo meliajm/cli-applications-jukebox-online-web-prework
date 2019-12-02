@@ -21,7 +21,7 @@ def play(songs)
   if songs.include?(user_request)
     
     puts "Playing #{songs[songs.find_index(user_request)]}"
-  elsif user_request.to_i 
+  elsif user_request.to_i && user_request.to_i < 10 && user_request > 0
     puts "Playing #{songs[user_request.to_i-1]}"
   else 
     puts "Invalid input, please try again"
