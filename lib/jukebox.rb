@@ -19,5 +19,10 @@ def play(songs)
   user_request = gets.strip
   
   if songs.include?(user_request)
-
-    puts "Playing #{}"
+    
+    puts "Playing #{songs.find_index(user_request)}"
+    
+  end
+end
+    
+    
